@@ -7,8 +7,8 @@ import screen3 from "./../public/screen-03.png";
 export default function CardSection() {
   return (
     <div className="lg:w-[90%] xl:w-[80%] mx-auto my-[4%] space-y-14">
-      <div className="flex  justify-between items-center">
-        <div className="w-2/5 flex flex-col space-y-5">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center px-4">
+        <div className="md:w-2/5 flex flex-col space-y-5">
           <h1 className="text-[30px] lg:text-[40px] font-semibold text-[#172755]">
             Automated Reports & Widget Alerts
           </h1>
@@ -18,15 +18,15 @@ export default function CardSection() {
             vitae nibh nunc mattis imperdiet sed nullam.{" "}
           </p>
         </div>
-        <div className="w-3/6">
+        <div className="md:w-3/6">
           <Image src={screen1} alt="screen1" />
         </div>
       </div>
 
       {/* 2 */}
 
-      <div className="flex flex-row-reverse justify-between items-center">
-        <div className="w-2/5 flex flex-col space-y-5">
+      <div className="flex flex-col md:flex-row-reverse md:justify-between md:items-center px-4">
+        <div className="md:w-2/5 flex flex-col space-y-5">
           <h1 className="text-[30px] lg:text-[40px] font-semibold text-[#172755]">
           Fully customizable to address your needs 
           </h1>
@@ -36,15 +36,15 @@ export default function CardSection() {
             vitae nibh nunc mattis imperdiet sed nullam.{" "}
           </p>
         </div>
-        <div className="w-3/6">
-          <Image src={screen2} alt="screen1" className="-ml-6"/>
+        <div className="md:w-3/6">
+          <Image src={screen2} alt="screen1" className="md:-ml-6"/>
         </div>
       </div>
 
       {/* 3 */}
 
-      <div className="flex justify-between items-center">
-        <div className="w-2/5 flex flex-col space-y-5">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center px-4">
+        <div className="md:w-2/5 flex flex-col space-y-5">
           <h1 className="text-[30px] lg:text-[40px] font-semibold text-[#172755]">
           Pre-built Dashboard Templates
           </h1>
@@ -54,7 +54,7 @@ export default function CardSection() {
             vitae nibh nunc mattis imperdiet sed nullam.{" "}
           </p>
         </div>
-        <div className="w-3/6">
+        <div className="md:w-3/6">
           <Image src={screen3} alt="screen1" />
         </div>
       </div>
