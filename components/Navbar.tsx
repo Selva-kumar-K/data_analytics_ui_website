@@ -5,7 +5,7 @@ import HeroSection from "./HeroSection";
 
 export default function Navbar() {
   return (
-    <div className="bg-blue-950/90  h-screen px-4 lg:px-0">
+    <div className="bg-blue-950/90  h-full px-4 lg:px-0 py-[20px]">
         <div className="text-white flex items-center justify-between  py-5 lg:w-[90%] xl:w-[80%] mx-auto">
           <div className="flex items-center gap-2">
             <Image
