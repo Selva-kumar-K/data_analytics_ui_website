@@ -7,6 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // fontFamily: {
+    //   roboto: ["Roboto", "sans-serif"],
+    // },
+    // fontWeight: {
+    //   weight_roboto: "400",
+    // },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
